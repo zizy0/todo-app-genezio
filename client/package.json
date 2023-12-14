@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js && serve public",
+    "install-local-sdk": "npm link @genezio-sdk/todo-app_us-east-1",
+    "install-prod-sdk": "npm install @genezio-sdk/todo-app_us-east-1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "@genezio-sdk/todo-app_us-east-1": "^1.0.0-prod",
+    "esbuild": "^0.19.0"
+  }
+}
