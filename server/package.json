@@ -11,5 +11,8 @@
   "dependencies": {
     "@genezio/types": "^0.1.9",
     "mongoose": "^6.6.4"
+  },
+  "overrides": {
+    "ip@<=2.0.1": "2.0.1"
   }
 }
